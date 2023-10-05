@@ -9,7 +9,7 @@ let package = Package(
         .library(
             name: "FFmpegKit-iOS",
             targets: [
-                "FFmpegkitLib",
+                "FFmpegkitLib", "Dummy",
             ]),
     ],
     dependencies: [
@@ -17,5 +17,6 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "FFmpegkitLib", path: "libFFmpegKit.xcframework"),
+        .target(name: "Dummy", dependencies: ["FFmpegKit"]),
     ]
 )
