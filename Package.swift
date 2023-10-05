@@ -12,7 +12,10 @@ let package = Package(
                 "FFmpegkitLib",
             ]),
     ],
+    dependencies: [
+        .package(url: "https://github.com/kingslay/FFmpegKit.git", from: "6.0.1"),
+    ],
     targets: [
         .binaryTarget(name: "FFmpegkitLib", path: "libFFmpegKit.xcframework"),
-    ]
+    ],
 )
