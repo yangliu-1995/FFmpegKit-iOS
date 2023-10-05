@@ -17,5 +17,5 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "FFmpegkitLib", path: "libFFmpegKit.xcframework"),
-    ],
+    ]
 )
