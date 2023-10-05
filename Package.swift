@@ -3,11 +3,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "FFmpegKit",
+    name: "FFmpegKit-iOS",
     platforms: [.iOS(.v13)],
     products: [
         .library(
-            name: "FFmpegKit",
+            name: "FFmpegKit-iOS",
             targets: [
                 "FFmpegkitLib",
             ]),
