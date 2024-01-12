@@ -13,7 +13,7 @@ let package = Package(
             ]),
     ],
     dependencies: [
-        .package(url: "https://github.com/yangliu-1995/FFmpegKit.git", from: "6.0.1"),
+        .package(url: "https://github.com/yangliu-1995/FFmpegKit.git", from: "6.1.0"),
     ],
     targets: [
         .binaryTarget(name: "FFmpegkitLib", path: "libFFmpegKit.xcframework"),
